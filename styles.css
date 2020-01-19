@@ -1,0 +1,34 @@
+.background { 
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-image: url('CanoeingBG.jpg');
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.background .bay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-image: url('Bay.png');
+    background-size: 100%;
+    filter: url('#waves');
+    background-repeat: no-repeat;
+}
+
+.background .bay .waterfall {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-image: url('Waterfall.png');
+    background-size: 100%;
+    filter: url('#waterfall');
+    background-repeat: no-repeat;
+}
